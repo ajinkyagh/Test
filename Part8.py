@@ -21,4 +21,9 @@ print(X_train.shape, y_train.shape, X_test.shape, y_test.shape)  # we used defau
 lg.fit(X_train, y_train)                                         # Using 11,250 data points to train model
 print('PCA = ', lg.score(X_test, y_test))                        # Using  3,750 data points to test/evaluate R2 of model
 lg.fit(X1_train,y1_train)                                        # Using 11,250 data points to train model
-print('non-PCA = ', lg.score(X1_test, y1_test))                  # Using  3,750 data points to test/evaluate R2 of model
+print('non-PCA = ', lg.score(X1_test, y1_test))
+
+
+# Using  3,750 data points to test/evaluate R2 of model
+
+#AHod
